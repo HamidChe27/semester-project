@@ -143,7 +143,19 @@ body {
         display: block;
         margin: auto;
     }
-    .footer{
-        margin-top:100px;
-       
+footer {
+    position: static;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 10px;
+}
+
+    footer p {
+        margin: 0;
+    }
+
+    footer a {
+        color: #fff;
+        text-decoration: none;
     }
